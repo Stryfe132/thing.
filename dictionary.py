@@ -24,7 +24,9 @@ def enteryourword():
       definition = input("What Definition Would you Like To See?:")
       print ("Here is the definition for", definition)
       print (mydict[definition])
-      return
+      print (input("..."))
+      AskUser()
+      
 
 def randomizer():
     print (random.choice(list(mydict.items())))
