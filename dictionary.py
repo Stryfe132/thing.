@@ -29,7 +29,7 @@ def ShowTerms():
         
 def enteryourword():
       definition = input("What Definition Would you Like To See?:")
-      print ("Here is the definition for", definition)
+      print ("Here is the definition for" + definition + ":")
       print (mydict[definition])
       time.sleep(1.5)
       print (input("Press any key to continue..."))
